@@ -1,0 +1,5 @@
+# Ignorer le dossier W3C-Validator
+W3C-Validator/
+
+# Ignorer le script de validation
+w3c_validator.py
