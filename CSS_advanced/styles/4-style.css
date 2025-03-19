@@ -1,0 +1,40 @@
+/* 
+   Target the root element and define custom properties for the color scheme and text colors. 
+   These properties allow easy theme management and reuse throughout the website.
+*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: var(--text-color);
+}
+
+body{
+    color: var(--text-color);
+    font-family: --font-family-base;
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.section-tagline, .card-category {
+    color: var(--color-primary);
+}
+
+:root {
+    --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --color-primary: #d73953;   /* Primary color used for important elements */
+    --color-black: #090909;     /* Dark black color for text */
+    --color-white: #ffffff;     /* White color used for backgrounds and text */
+    --color-light-grey: #f3f3f3; /* Light grey used for subtle background elements */
+    --color-dark-grey: #353535;  /* Dark grey for text or background elements */
+    --text-color: var(--color-black); /* Default text color set to color-black */
+}
+/* Custom changes for 5-style.css */
+h1, h2, h3 ,h4, h5, h6 {
+    font-family: var(--font-family-title);
+}
