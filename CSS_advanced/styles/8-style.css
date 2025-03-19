@@ -1,0 +1,58 @@
+/* 
+   This CSS file defines custom properties for line heights to ensure consistent vertical spacing across the website.
+   - 'line-height-small' is set to 1.2 for tight line spacing in small text.
+   - 'line-height-base' is set to 1.5 for standard line spacing in body text.
+   - 'line-height-big' is set to 1.8 for larger line spacing in larger text or headings.
+   - The minimum height of line boxes in the body is set to 'line-height-base' for consistent text layout and readability.
+*/
+
+:root {
+    --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-family-title:  'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --color-primary: #d73953;   /* Primary color used for important elements */
+    --color-black: #090909;     /* Dark black color for text */
+    --color-white: #ffffff;     /* White color used for backgrounds and text */
+    --color-light-grey: #f3f3f3; /* Light grey used for subtle background elements */
+    --color-dark-grey: #353535;  /* Dark grey for text or background elements */
+    --text-color: var(--color-black); /* Default text color set to color-black */
+    --font-size-small: 1.2rem;
+    --font-size-medium: 1.6rem;
+    --font-size-large: 1.8rem;
+    --font-size-x-large: 2.3rem;
+    --font-size-xx-large: 4.8rem;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+    --line-height-small: 1.2;
+    --line-height-base: 1.5;
+    --line-height-big: 1.8;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%; 
+}
+
+body{
+    color: var(--text-color);
+    font-family: var(--font-family-base);
+    font: var(--font-size-medium);
+    font-weight: var(--font-weight-regular);
+    min-height: var(--line-height-base);
+}
+
+a {
+    color: var(--text-color);
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.section-tagline, .card-category {
+    color: var(--color-primary);
+}
+
+h1, h2, h3 ,h4, h5, h6 {
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
+}
