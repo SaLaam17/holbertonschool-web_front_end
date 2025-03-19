@@ -1,0 +1,53 @@
+/* 
+   This CSS file defines custom properties for font weights and font sizes.
+   It sets the base font weights for regular and bold text, 
+   and applies them appropriately to body text and headings. 
+   Custom properties for font sizes are also created for consistent scaling across the design.
+*/
+
+:root {
+    --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --color-primary: #d73953;   /* Primary color used for important elements */
+    --color-black: #090909;     /* Dark black color for text */
+    --color-white: #ffffff;     /* White color used for backgrounds and text */
+    --color-light-grey: #f3f3f3; /* Light grey used for subtle background elements */
+    --color-dark-grey: #353535;  /* Dark grey for text or background elements */
+    --text-color: var(--color-black); /* Default text color set to color-black */
+    --font-size-small: 1.2rem;
+    --font-size-medium: 1.6rem;
+    --font-size-large: 1.8rem;
+    --font-size-x-large: 2.3rem;
+    --font-size-xx-large: 4.8rem;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%; 
+}
+
+body{
+    color: var(--text-color);
+    font-family: var(--font-family-base);
+    font: var(--font-size-medium);
+    font-weight: var(--font-weight-regular);
+}
+
+a {
+    color: var(--text-color);
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.section-tagline, .card-category {
+    color: var(--color-primary);
+}
+
+h1, h2, h3 ,h4, h5, h6 {
+    font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
+}
