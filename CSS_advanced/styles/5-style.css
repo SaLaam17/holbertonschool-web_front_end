@@ -8,10 +8,10 @@
     --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --color-primary: #d73953;   /* Primary color used for important elements */
-    --color-black: #090909;     /* Dark black color for text */
-    --color-white: #ffffff;     /* White color used for backgrounds and text */
+    --color-black: #090909; /* Dark black color for text */
+    --color-white: #ffffff; /* White color used for backgrounds and text */
     --color-light-grey: #f3f3f3; /* Light grey used for subtle background elements */
-    --color-dark-grey: #353535;  /* Dark grey for text or background elements */
+    --color-dark-grey: #353535; /* Dark grey for text or background elements */
     --text-color: var(--color-black); /* Default text color set to color-black */
     --font-size-small: 1.2rem;
     --font-size-medium: 1.6rem;
@@ -28,7 +28,7 @@ html {
 body{
     color: var(--text-color);
     font-family: var(--font-family-base);
-    font: var(--font-size-medium); 
+    font: var(--font-size-medium);
 }
 
 a {
