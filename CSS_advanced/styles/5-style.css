@@ -13,22 +13,22 @@
     --color-light-grey: #f3f3f3; /* Light grey used for subtle background elements */
     --color-dark-grey: #353535;  /* Dark grey for text or background elements */
     --text-color: var(--color-black); /* Default text color set to color-black */
-    --font-size-small: 1.2rem; /* Custom changes for 5-style.css */
-    --font-size-medium: 1.6rem; /* Custom changes for 5-style.css */
-    --font-size-large: 1.8rem; /* Custom changes for 5-style.css */
-    --font-size-x-large: 2.3rem; /* Custom changes for 5-style.css */
-    --font-size-xx-large: 4.8rem; /* Custom changes for 5-style.css */
+    --font-size-small: 1.2rem; 
+    --font-size-medium: 1.6rem; 
+    --font-size-large: 1.8rem; 
+    --font-size-x-large: 2.3rem; 
+    --font-size-xx-large: 4.8rem; 
 }
 
 html {
     scroll-behavior: smooth;
-    font-size: 62.5%; /* Custom changes for 5-style.css */
+    font-size: 62.5%; 
 }
 
 body{
     color: var(--text-color);
-    font-family: --font-family-base;
-    font: var(--font-size-medium); /* Custom changes for 5-style.css */
+    font-family: var(--font-family-base);
+    font: var(--font-size-medium); 
 }
 
 a {
