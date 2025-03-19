@@ -1,0 +1,9 @@
+/* 
+   Ensures smooth scrolling when the user scrolls the page.  
+   This property applies a gradual scrolling effect instead of an instant jump.  
+   Supported by most modern browsers (except Internet Explorer).  
+*/
+html {
+    scroll-behavior: smooth;
+}
+
