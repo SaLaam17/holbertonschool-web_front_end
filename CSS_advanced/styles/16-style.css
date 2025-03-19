@@ -1,5 +1,7 @@
-/* After .section-tagline: Set .container to 960px wide and center it using equal left and right margins */
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/*
+    After .section-tagline: Set .container to 960px wide and center it using equal left and right margins
+    normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css
+*/
 
 *,
 *::before,
@@ -258,7 +260,7 @@ a:active {
 
 .container {
     width: 960px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 h1, h2, h3 ,h4, h5, h6 {
