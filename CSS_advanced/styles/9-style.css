@@ -1,5 +1,6 @@
-
-
+/* 
+   This CSS file defines the anchor elements so the text isn’t decorated with anything.
+*/
 :root {
     --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-family-title:  'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
