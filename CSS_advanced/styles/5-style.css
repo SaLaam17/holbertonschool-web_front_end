@@ -1,6 +1,7 @@
 /* 
-   Target the root element and define custom properties for the color scheme and text colors. 
-   These properties allow easy theme management and reuse throughout the website.
+    Set base font size in html to 62.5% for easier rem calculations
+    Define custom font size properties for different text levels
+    Set body font size to medium
 */
 :root {
     --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -26,7 +27,7 @@ html {
 body{
     color: var(--text-color);
     font-family: --font-family-base;
-    font: var(--font-size-medium);/* Custom changes for 5-style.css */
+    font: var(--font-size-medium); /* Custom changes for 5-style.css */
 }
 
 a {
