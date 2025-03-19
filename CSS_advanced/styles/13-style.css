@@ -60,7 +60,7 @@ a:hover {
 }
 
 a:active {
-    color: color-light-grey;
+    background-color: color-light-grey;
 }
 
 .visually-hidden {
