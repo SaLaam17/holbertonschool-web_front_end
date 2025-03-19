@@ -2,7 +2,6 @@
    to set font, size, weight, margin, and text color
 */
 
-
 :root {
     --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-family-title:  'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -35,7 +34,7 @@ html {
     font-size: 62.5%; 
 }
 
-body{
+body {
     color: var(--text-color);
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
