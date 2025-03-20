@@ -1,0 +1,50 @@
+/* 
+   Target the root element and define custom properties for the color scheme and text colors. 
+   These properties allow easy theme management and reuse throughout the website.
+*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body, a {
+    color: var(--text-color);
+}
+
+.visually-hidden {
+    display: none;
+}
+
+.section-tagline, .card-category {
+    color: var(--color-primary);
+}
+
+:root {
+    --color-primary: #d73953;   /* Primary color used for important elements */
+    --color-black: #090909;     /* Dark black color for text */
+    --color-white: #ffffff;     /* White color used for backgrounds and text */
+    --color-light-grey: #f3f3f3; /* Light grey used for subtle background elements */
+    --color-dark-grey: #353535;  /* Dark grey for text or background elements */
+    --text-color: var(--color-black); /* Default text color set to color-black */
+}
+/* Custom changes for 4-style.css */
+/* Custom changes for 5-style.css */
+/* Custom changes for 6-style.css */
+/* Custom changes for 7-style.css */
+/* Custom changes for 8-style.css */
+/* Custom changes for 9-style.css */
+/* Custom changes for 10-style.css */
+/* Custom changes for 11-style.css */
+/* Custom changes for 12-style.css */
+/* Custom changes for 13-style.css */
+/* Custom changes for 14-style.css */
+/* Custom changes for 15-style.css */
+/* Custom changes for 16-style.css */
+/* Custom changes for 17-style.css */
+/* Custom changes for 18-style.css */
+/* Custom changes for 19-style.css */
+/* Custom changes for 20-style.css */
+/* Custom changes for 21-style.css */
+/* Custom changes for 22-style.css */
+/* Custom changes for 23-style.css */
+/* Custom changes for 24-style.css */

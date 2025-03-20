@@ -1,6 +1,11 @@
 /* 
-   Target the root element and define custom properties for the color scheme and text colors. 
-   These properties allow easy theme management and reuse throughout the website.
+Define two custom font-family properties:
+   - --font-family-base: Font stack for body text (Helvetica Neue, Helvetica, Arial, sans-serif)
+   - --font-family-title: Font stack for heading tags (h1-h6)
+
+   Apply:
+   - --font-family-base to the body for consistent text styling.
+   - --font-family-title to all heading tags (h1 to h6) for distinct title styling.
 */
 
 html {
