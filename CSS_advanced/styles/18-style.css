@@ -189,7 +189,6 @@ template {
     --font-weight-regular: 400;
     --font-weight-bold: 700;
 
-    /* Line height custom properties */
     --line-height-small: 1.2; /* For tight line spacing */
     --line-height-base: 1.5;  /* For standard line spacing in body text */
     --line-height-big: 1.8;   /* For larger line spacing in larger text or headings */
@@ -225,7 +224,7 @@ body {
     font-family: var(--font-family-base);
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
-    line-height: var(--line-height-base); /* Set line-height to the base value */
+    line-height: var(--line-height-base);
 }
 
 a[href] {
@@ -306,8 +305,8 @@ h1, h2, h3 ,h4, h5, h6 {
 }
 
 .nav {
-    margin: 0 ;
-    padding: 0 ;
+    margin: 0;
+    padding: 0;
     list-style: none;
     text-align: center;
 
@@ -324,7 +323,7 @@ h1, h2, h3 ,h4, h5, h6 {
 
 .nav .nav-link {
     display: block;
-    padding: calc(var(--root-padding) / 2) var(--root-padding); /* Top & Bottom: half, Left & Right: full */
+    padding: calc(var(--root-padding) / 2) var(--root-padding);
     
 }
 .nav .nav-link:hover {
