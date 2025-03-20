@@ -470,9 +470,9 @@ ul.row {
     position: var(--header-logo-position);
 }
 
-.header-logo link {
+.header-logo a {
     display: var(--header-logo-link-display);
     position: var(--header-logo-link-position);
-    position: var(--header-logo-link-top);
-    position: var(--header-logo-link-left);
+    top: var(--header-logo-link-top);
+    left: var(--header-logo-link-left);
 }
