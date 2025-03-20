@@ -377,7 +377,10 @@ ul.row {
     background-color: var(--color-black);
 }
 
-.social-link::after {
+.social-link {
     display: block;
-    color: var(--text-color);
+}
+
+.social-link.svg {
+    fill: var(--text-color);
 }
